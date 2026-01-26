@@ -1,7 +1,8 @@
-# NIBS-DAS repository files v1.0
+#**NIBS-DAS repository files v1.0**
 
 
-**This document provides an overview of the files contained within this repo, and explains the file and folder structure.**
+##**This document provides an overview of the files contained within this repo, and explains the folder and file structure.**##
+
 
 ‘NIBS data analysis structure’ (NIBS-DAS) is a template pipeline for the layout and management of collated NIBS data to facilitate data sharing and statistical analysis. 
 
@@ -22,7 +23,7 @@ clinical_example/
 One can replace `clinical_example` with their project name (e.g. `tFUS_PD_feasibility`) and upload this project file to <https://bignibsdata.com>, containing both the uncollated and collated data with full metadata. See the repo for example subfolders in this structure.
 
 
-**Elaboration on the NIBS-DAS template folder structure**
+###**Elaboration on the NIBS-DAS template folder structure**###
 
 The NIBS-DAS file structure (`nibs-das_examples/clinical_example/collated_participant_data` and `nibs-das_examples/mep_example/collated_participant_data`) is designed to help with  file organisation, tracking of operations, and version control. Below, we elaborate on the workflow in our template to allow users to apply this to their own research projects. 
 
