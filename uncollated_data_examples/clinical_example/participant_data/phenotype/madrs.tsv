@@ -1,0 +1,7 @@
+participant_id	session_id	madrs_apparent_sadness	madrs_reported_sadness	madrs_inner_tension	madrs_reduced_sleep	madrs_reduced_appetite	madrs_concentration_difficulties	madrs_lassitude	madrs_inability_to_feel	madrs_pessimistic_thoughts	madrs_suicidal_thoughts	madrs_total
+sub-01	ses-pre	5	5	6	5	6	4	5	6	4	6	52
+sub-01	ses-post1	6	5	4	4	5	4	4	6	5	5	48
+sub-02	ses-pre	6	6	4	5	5	5	4	4	5	4	48
+sub-02	ses-post1	5	4	4	5	6	6	5	5	5	5	50
+sub-03	ses-pre	4	5	5	4	5	4	4	5	4	4	44
+sub-03	ses-post1	4	4	4	4	4	4	4	4	4	4	40

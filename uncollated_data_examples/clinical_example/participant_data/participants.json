@@ -1,0 +1,29 @@
+{
+  "participant_id": {
+    "Description": "Unique participant identifier formatted as sub-XX.",
+    "TermURL": "https://bids-specification.readthedocs.io/"
+  },
+  "age": {
+    "Description": "Age at baseline.",
+    "Units": "years"
+  },
+  "sex": {
+    "Description": "Self-reported sex.",
+    "Levels": {
+      "Male": "Male",
+      "Female": "Female"
+    }
+  },
+  "handedness": {
+    "Description": "Self-reported handedness.",
+    "Levels": {
+      "Right": "Right",
+      "Left": "Left",
+      "Ambidextrous": "Ambidextrous"
+    }
+  },
+  "years_of_education": {
+    "Description": "Total years of formal education.",
+    "Units": "years"
+  }
+}

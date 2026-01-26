@@ -1,0 +1,54 @@
+{
+  "participant_id": {
+    "Description": "Matches participants.tsv"
+  },
+  "session_id": {
+    "Description": "Study timepoint",
+    "Levels": {
+      "ses-pre": "Pre intervention",
+      "ses-post1": "First timepoint post intervention"
+    }
+  },
+  "diagnosis1": {
+    "LongName": "diagnosis1",
+    "Description": "Clinical diagnosis relevant to study inclusion.",
+    "Levels": {
+      "MDD": "Major depressive disorder"
+    }
+  },
+  "diagnosis2": {
+    "LongName": "diagnosis2",
+    "Description": "Other clinical diagnoses.",
+    "Levels": {
+      "GAD": "Generalized anxiety disorder",
+      "Diabetes": "Diabetes"
+    }
+  },
+  "years_since_dx": {
+    "LongName": "Years since diagnosis",
+    "Description": "Time elapsed since first clinical diagnosis.",
+    "Units": "years"
+  },
+  "medication": {
+    "Description": "Drug name or 'None'"
+  },
+  "dose_mg": {
+    "Units": "mg",
+    "Description": "Numeric dose"
+  },
+  "route": {
+    "Description": "Administration route"
+  },
+  "status": {
+    "Description": "Medication status",
+    "Levels": {
+      "none": "No medication",
+      "current": "Currently diagnosed condition or currently prescribed medication",
+      "historical": "Past diagnosis or medication use",
+      "n/a": "Not applicable"
+    }
+  },
+  "notes": {
+    "Description": "Optional details"
+  }
+}

@@ -1,0 +1,7 @@
+participant_id	session_id	diagnosis1	diagnosis2	years_since_dx	medication	dose_mg	route	status	notes
+sub-01	ses-pre	MDD	None	20	escitalopram	10.0	oral	current	
+sub-01	ses-post1	MDD	None	20	escitalopram	10.0	oral	current	
+sub-02	ses-pre	MDD	GAD	11	None	 	 	current	
+sub-02	ses-post1	MDD	GAD	11	None	 	 	current	
+sub-03	ses-pre	MDD	Diabetes	8	sertraline	50.0	oral	current	
+sub-03	ses-post1	MDD	Diabetes	8	sertraline	50.0	oral	current	

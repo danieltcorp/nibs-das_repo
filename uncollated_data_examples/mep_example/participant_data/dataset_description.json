@@ -1,0 +1,27 @@
+{
+  "Name": "NIBS-DAS Motor Evoked Potential Example Dataset",
+  "BIDSVersion": "XXXX",
+  "DatasetType": "raw",
+  "License": "CC-BY-XX",
+  "Authors": [
+    "NIBS-DAS Group"
+  ],
+  "Acknowledgements": "XXXX.",
+  "Funding": [
+    "XXXX",
+    "XXXX"
+  ],
+  "EthicsApprovals": [
+    "University X. Approval number XXXX"
+  ],
+  "ReferencesAndLinks": [
+    "https://github.com/nigelrogasch/nibs-bids/tree/master/nibs-bids-v6",
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Daniel Corp and Michael Barham",
+      "Version": "v1.0.0",
+      "Description": "XXXX"
+    }
+  ]
+}

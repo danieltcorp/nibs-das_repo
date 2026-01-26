@@ -1,0 +1,136 @@
+{
+  "participant_id": {
+    "Description": "Participant identifier."
+  },
+  "session_id": {
+    "Description": "Measurement timepoint relative to the intervention.",
+    "Levels": {
+      "Pre": "Pre-intervention (baseline)",
+      "Post1": "Post-intervention"
+    }
+  },
+  "madrs_apparent_sadness": {
+    "Description": "Apparent sadness item score (0–6).",
+    "Levels": {
+      "0": "No symptoms",
+      "1": "Minimal",
+      "2": "Mild",
+      "3": "Moderate",
+      "4": "Marked",
+      "5": "Severe",
+      "6": "Very severe"
+    }
+  },
+  "madrs_reported_sadness": {
+    "Description": "Reported sadness item score (0–6).",
+    "Levels": {
+      "0": "No symptoms",
+      "1": "Minimal",
+      "2": "Mild",
+      "3": "Moderate",
+      "4": "Marked",
+      "5": "Severe",
+      "6": "Very severe"
+    }
+  },
+  "madrs_inner_tension": {
+    "Description": "Inner tension item score (0–6).",
+    "Levels": {
+      "0": "No symptoms",
+      "1": "Minimal",
+      "2": "Mild",
+      "3": "Moderate",
+      "4": "Marked",
+      "5": "Severe",
+      "6": "Very severe"
+    }
+  },
+  "madrs_reduced_sleep": {
+    "Description": "Reduced sleep item score (0–6).",
+    "Levels": {
+      "0": "No symptoms",
+      "1": "Minimal",
+      "2": "Mild",
+      "3": "Moderate",
+      "4": "Marked",
+      "5": "Severe",
+      "6": "Very severe"
+    }
+  },
+  "madrs_reduced_appetite": {
+    "Description": "Reduced appetite item score (0–6).",
+    "Levels": {
+      "0": "No symptoms",
+      "1": "Minimal",
+      "2": "Mild",
+      "3": "Moderate",
+      "4": "Marked",
+      "5": "Severe",
+      "6": "Very severe"
+    }
+  },
+  "madrs_concentration_difficulties": {
+    "Description": "Concentration difficulties item score (0–6).",
+    "Levels": {
+      "0": "No symptoms",
+      "1": "Minimal",
+      "2": "Mild",
+      "3": "Moderate",
+      "4": "Marked",
+      "5": "Severe",
+      "6": "Very severe"
+    }
+  },
+  "madrs_lassitude": {
+    "Description": "Lassitude item score (0–6).",
+    "Levels": {
+      "0": "No symptoms",
+      "1": "Minimal",
+      "2": "Mild",
+      "3": "Moderate",
+      "4": "Marked",
+      "5": "Severe",
+      "6": "Very severe"
+    }
+  },
+  "madrs_inability_to_feel": {
+    "Description": "Inability to feel item score (0–6).",
+    "Levels": {
+      "0": "No symptoms",
+      "1": "Minimal",
+      "2": "Mild",
+      "3": "Moderate",
+      "4": "Marked",
+      "5": "Severe",
+      "6": "Very severe"
+    }
+  },
+  "madrs_pessimistic_thoughts": {
+    "Description": "Pessimistic thoughts item score (0–6).",
+    "Levels": {
+      "0": "No symptoms",
+      "1": "Minimal",
+      "2": "Mild",
+      "3": "Moderate",
+      "4": "Marked",
+      "5": "Severe",
+      "6": "Very severe"
+    }
+  },
+  "madrs_suicidal_thoughts": {
+    "Description": "Suicidal thoughts item score (0–6).",
+    "Levels": {
+      "0": "No symptoms",
+      "1": "Minimal",
+      "2": "Mild",
+      "3": "Moderate",
+      "4": "Marked",
+      "5": "Severe",
+      "6": "Very severe"
+    }
+  },
+  "madrs_total": {
+    "Description": "Sum of the 10 MADRS items (0–60)."
+  }
+}
+

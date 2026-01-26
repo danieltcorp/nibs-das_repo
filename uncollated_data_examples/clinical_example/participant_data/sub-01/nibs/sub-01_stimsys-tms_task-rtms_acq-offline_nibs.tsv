@@ -1,0 +1,2 @@
+targeting_method	current_direction	protocol_name	waveform	inter_pulse_interval	pulse_rate	train_pulses	train_number	inter_train_interval	rmt_intensity	pulse_intensity_rmt	group	tms_pos_centre
+manual	normal	hf_rTMS	biphasic	100	10	40	75	26000	64	120	Sham	Left_dlpfc
