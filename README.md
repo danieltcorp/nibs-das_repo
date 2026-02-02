@@ -1,7 +1,7 @@
-#**NIBS-DAS repository files v1.0**
+# **NIBS-DAS repository files v1.0**
 
 
-##**This document provides an overview of the files contained within this repo, and explains the file and folder structure.**##
+## **This document provides an overview of the files contained within this repo, and explains the file and folder structure.** ##
 
 
 ‘NIBS data analysis structure’ (NIBS-DAS) is a template pipeline for the layout and management of collated NIBS data to facilitate data sharing and statistical analysis. 
