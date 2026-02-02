@@ -9,7 +9,7 @@
 NIBS-DAS is focused on collated data. Therefore, within the `nibs-das_examples` folder, files are formatted in NIBS-DAS and demonstrate the NIBS-DAS pipeline. There are two example experiments: an rTMS clinical trial (`nibs-das_examples/clinical_example`) and a TMS study collecting motor evoked potentials (`nibs-das_examples/mep_example`). 
 
 
-###**Elaboration on the NIBS-DAS template folder structure**###
+### **Elaboration on the NIBS-DAS template folder structure** ###
 
 The NIBS-DAS file structure (`nibs-das_examples/clinical_example/collated_participant_data` and `nibs-das_examples/mep_example/collated_participant_data`) is designed to help with  file organisation, tracking of operations, and version control. Below, we elaborate on the workflow in our template to allow users to apply this to their own research projects. 
 
@@ -24,7 +24,7 @@ The NIBS-DAS file structure (`nibs-das_examples/clinical_example/collated_partic
 - Within folder there is a sub-folder named `old`, where the user can store older versions of files when they are no longer being used. This ensures data are not deleted if you need to come back to an older version of the data or analysis script. Files are dated using the `YYYY-MM-DD` format to facilitate version control.
 
 
-###**Uncollated data examples in NIBS-BIDS format**###
+### **Uncollated data examples in NIBS-BIDS format** ###
 
 Within the `uncollated_data_examples` folder, we also provide the corresponding raw, uncollated datafiles for these two example experiments. These are not in NIBS-DAS format (because NIBS-DAS focuses on collated data), but instead follow NIBS-BIDS  formatting (<https://github.com/nigelrogasch/nibs-bids/tree/master/nibs-bids-v6>). These are only broad templates and users should always follow NIBS-BIDS guidelines and updates for how to format data in this structure, rather than our files here.
 
