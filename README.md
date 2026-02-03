@@ -1,4 +1,4 @@
-# **NIBS-DAS repository files v1.0**
+# **NIBS-DAS repository files v1.0-beta**
 
 
 ## **This document provides an overview of the files contained within this repo, and explains the file and folder structure.** ##
