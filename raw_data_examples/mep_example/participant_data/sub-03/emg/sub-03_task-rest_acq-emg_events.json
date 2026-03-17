@@ -1,0 +1,16 @@
+{
+  "trial_number": {
+    "LongName": "Trial Number",
+    "Description": "Sequential index of the trial as it appeared during raw acquisition."
+  },
+  "onset": {
+    "LongName": "Event Onset",
+    "Description": "Time from the start of the recording when the event occurred.",
+    "Units": "milliseconds"
+  },
+  "duration": {
+    "LongName": "Event Duration",
+    "Description": "Duration of the event.",
+    "Units": "seconds"
+  }
+}

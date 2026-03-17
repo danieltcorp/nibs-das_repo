@@ -1,0 +1,8 @@
+name	        type	units	sampling_frequency	low_cutoff	high_cutoff	notch	status	status_description
+trig	        TRIG	n/a	4000	XX	XX	XX	good	Marks TMS pulse onset
+raw_fdi	        EMG	mV	4000	XX	XX	XX	good	n/a
+raw_apb	        EMG	mV	4000	XX	XX	XX	good	n/a
+mep_ampl_fdi	MEP	mV	4000	XX	XX	XX	good	n/a
+pre_rms_fdi	MEP	mV	4000	XX	XX	XX	good	n/a
+mep_ampl_apb	EMGRMS	mV	4000	XX	XX	XX	good	n/a
+pre_rms_apb	EMGRMS	mV	4000	XX	XX	XX	good	n/a

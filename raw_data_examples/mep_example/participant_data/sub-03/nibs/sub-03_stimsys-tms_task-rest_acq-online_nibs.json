@@ -1,7 +1,7 @@
 {
-  "TaskName": "SICI",
+  "TaskName": "rest",
   "Instructions": "",
-  "TaskDescription": "Single and paired monophasic TMS pulses applied to the left primary motor cortex, measuring short-interval intracortical inhibition (SICI). Motor evoked potentials were recorded from the first dorsal interosseous (FDI) and abductor pollicis brevis (APB) muscles.",
+  "TaskDescription": "Single and paired monophasic TMS pulses applied to the left primary motor cortex, measuring short-interval intracortical inhibition (SICI) while participants are at rest. Motor evoked potentials were recorded from the first dorsal interosseous (FDI) and abductor pollicis brevis (APB) muscles.",
   "SoftwareVersion": "",
   "Manufacturer": "Magstim",
   "ManufacturerModelName": "BiStim2",
@@ -16,7 +16,7 @@
       "CoilID": "coil_1",
       "CoilType": "Example",
       "CoilShape": "figure-of-eight",
-      "CoilCooling": "air",
+      "CoilCooling": "none",
       "CoilDiameter": {
         "Value": 70,
         "Units": "mm",
@@ -109,96 +109,5 @@
   "tms_pos_centre": {
     "LongName": "TMS Coil Position",
     "Description": "The position of the center of the TMS coil."
-  },
-
-  "EMGReference": "Bipolar per channel; reference over tendon; ground on bone of hand",
-  "EMGPlacementScheme": "Belly-tendon montage over both FDI and APB",
-  "SamplingFrequency": "XXXX",
-  "PowerLineFrequency": "XXXX",
-
-  "SoftwareFilters": {
-    "Notch": {
-      "FrequencyHz": "XXXX"
-    }
-  },
-
-  "OnlineChannels": [
-    {
-      "name": "trig",
-      "type": "TRIG",
-      "units": "n/a",
-      "sampling_frequency": 4000,
-      "low_cutoff": "XX",
-      "high_cutoff": "XX",
-      "notch": "XX",
-      "status": "XX",
-      "status_description": "Marks TMS pulse onset"
-    },
-    {
-      "name": "raw_fdi",
-      "type": "EMG",
-      "units": "mV",
-      "sampling_frequency": 4000,
-      "low_cutoff": "XX",
-      "high_cutoff": "XX",
-      "notch": "XX",
-      "status": "XX",
-      "status_description": "n/a"
-    },
-    {
-      "name": "raw_apb",
-      "type": "EMG",
-      "units": "mV",
-      "sampling_frequency": 4000,
-      "low_cutoff": "XX",
-      "high_cutoff": "XX",
-      "notch": "XX",
-      "status": "XX",
-      "status_description": "n/a"
-    },
-    {
-      "name": "mep_ampl_fdi",
-      "type": "MEP",
-      "units": "mV",
-      "sampling_frequency": 4000,
-      "low_cutoff": "XX",
-      "high_cutoff": "XX",
-      "notch": "XX",
-      "status": "XX",
-      "description": "Motor evoked potential (MEP) amplitude measured from the FDI muscle following TMS."
-    },
-    {
-      "name": "mep_ampl_apb",
-      "type": "MEP",
-      "units": "mV",
-      "sampling_frequency": 4000,
-      "low_cutoff": "XX",
-      "high_cutoff": "XX",
-      "notch": "XX",
-      "status": "XX",
-      "description": "Motor evoked potential (MEP) amplitude measured from the APB muscle following TMS."
-    },
-    {
-      "name": "pre_rms_fdi",
-      "type": "EMGRMS",
-      "units": "mV",
-      "sampling_frequency": 4000,
-      "low_cutoff": "XX",
-      "high_cutoff": "XX",
-      "notch": "XX",
-      "status": "XX",
-      "description": "Root mean square EMG amplitude measured from the FDI muscle 100 ms prior to TMS pulse."
-    },
-    {
-      "name": "pre_rms_apb",
-      "type": "EMGRMS",
-      "units": "mV",
-      "sampling_frequency": 4000,
-      "low_cutoff": "XX",
-      "high_cutoff": "XX",
-      "notch": "XX",
-      "status": "XX",
-      "description": "Root mean square EMG amplitude measured from the APB muscle 100 ms prior to TMS pulse."
-    }
-  ]
+  }
 }

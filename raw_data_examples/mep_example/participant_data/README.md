@@ -9,15 +9,17 @@
   This dataset represents an example study of transcranial magnetic stimulation (TMS) applied to the left motor cortex in healthy subjects, measuring motor evoked potentials with single and paired-pulses, measuring short-interval intracortical inhibition (SICI). The purpose is to provide a dataset to demonstrate the NIBS-DAS pipeline.   
 - **Description of dataset contents**:  
   - `participants.tsv` contains participant demographics.  
-  - `sub-*` folders contain nibs data.
+  - `sub-*` folders contain nibs and emg meta/data.
+  - `sourcedata` contains emg data as originally outputted by Labchart software (then converted to common .edf format, stored within `sub-*` folders)
 - **Independent variables**:  
-  - MEPType (conditioned vs. unconditioned MEPs)  
+  - tms_stim_mode (dual vs. single pulse MEPs)  
   - muscle (FDI vs APB)  
 - **Dependent variables**:  
   - mep_ampl (MEP amplitudes) 
 - **Control variables**:  
   - Age
   - Sex
+  - pre_rms (pre stimulus root mean square EMG activity)
 - **Quality assessment**:  
 
 ---
@@ -38,7 +40,7 @@
 ### Initial setup
 - RMT determined from motor cortex stimulation.    
 
-### Study organization
+### Study organisation
 - SICI experiment   
 
 ### Study details

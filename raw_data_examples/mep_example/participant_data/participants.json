@@ -21,9 +21,5 @@
       "Left": "Left",
       "Ambidextrous": "Ambidextrous"
     }
-  },
-  "years_of_education": {
-    "Description": "Total years of formal education.",
-    "Units": "years"
   }
 }

@@ -16,6 +16,7 @@
   ],
   "ReferencesAndLinks": [
     "https://github.com/nigelrogasch/nibs-bids/tree/master/nibs-bids-v6",
+    "https://bids-specification.readthedocs.io/en/stable/modality-specific-files/electromyography.html"
   ],
   "GeneratedBy": [
     {

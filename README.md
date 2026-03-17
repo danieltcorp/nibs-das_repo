@@ -24,11 +24,11 @@ The NIBS-DAS file structure (`nibs-das_examples/clinical_example/collated_partic
 - Within folder there is a sub-folder named `old`, where the user can store older versions of files when they are no longer being used. This ensures data are not deleted if you need to come back to an older version of the data or analysis script. Files are dated using the `YYYY-MM-DD` format to facilitate version control.
 
 
-### **Uncollated data examples in NIBS-BIDS format** ###
+### **Raw data examples in NIBS-BIDS format** ###
 
-Within the `uncollated_data_examples` folder, we also provide the corresponding raw, uncollated datafiles for these two example experiments. These are not in NIBS-DAS format (because NIBS-DAS focuses on collated data), but instead follow NIBS-BIDS formatting (<https://github.com/nigelrogasch/nibs-bids/tree/master/nibs-bids-v6>). These are only broad templates and users should always follow NIBS-BIDS guidelines and updates for how to format data in this structure, rather than our files here.
+Within the `raw_data_examples` folder, we also provide the corresponding raw, uncollated datafiles for these two example experiments. These are not in NIBS-DAS format (because NIBS-DAS focuses on collated data), but instead follow NIBS-BIDS and EMG-BIDS formatting (<https://github.com/nigelrogasch/nibs-bids/tree/master/nibs-bids-v6> and <https://github.com/bids-standard/bids-examples#emg>). These are only broad templates and users should always follow BIDS guidelines and updates for how to format data in this structure, rather than our files here.
 
-While the formatting of uncollated raw data is not our explicit aim, these files provide context for how the data goes from its raw uncollated format, to the NIBS-DAS collated format. Further, any dataset uploaded to bignibsdata.com needs to contain metadata files describing the data. The aim of NIBS-DAS is not to provide guidance on metadata formatting, yet here we show how this can be achieved following NIBS-BIDS guidelines. To this end, the metadata files for both the example studies can be found within the `uncollated_data_examples` folder, within the study root directory for study level data, and in subject folders for subject level data.
+Guidance for the formatting of raw data is not our aim, but these files are provided to give context for how the data goes from its raw uncollated format, to the NIBS-DAS collated format. Further, any dataset uploaded to bignibsdata.com needs to contain metadata files describing the data. The aim of NIBS-DAS is not to provide guidance on metadata formatting, yet here we show how this can be achieved following NIBS-BIDS guidelines. To this end, the metadata files for both the example studies can be found within the `raw_data_examples` folder, within the study root directory for study level data, and in subject folders for subject level data.
 
 As a result, the folders and files within this repo show how these two formats can be integrated into an overarching project folder containing both the raw, uncollated data (NIBS-BIDS) and collated data (NIBS-DAS), for any NIBS experiment. For example, for the clinical dataset, the folder structure could be: 
 
@@ -38,7 +38,7 @@ clinical_example/
 └── collated_participant_data/
 ```
 
-One can replace `clinical_example` with their project name (e.g. `tFUS_PD_feasibility`) and upload this project file to <https://bignibsdata.com>, containing both the uncollated and collated data with full metadata. See the repo for example subfolders in this structure.
+One can replace `clinical_example` with their project name (e.g. `tFUS_PD_feasibility`) and upload this project file to <https://bignibsdata.com>, containing both the raw and collated participant data with full metadata. See the repo for example subfolders in this structure.
 
 
 

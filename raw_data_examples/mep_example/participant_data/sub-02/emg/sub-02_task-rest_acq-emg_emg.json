@@ -1,0 +1,18 @@
+{
+  "TaskName": "rest",
+  "EMGReference": "Bipolar per channel; reference ring over tendon; ground on bone of hand",
+  "EMGPlacementScheme": "Belly-tendon montage over both FDI and APB",
+  "SamplingFrequency": XXXX,
+  "PowerLineFrequency": XXXX,
+  "SoftwareFilters": {
+    "Notch": {
+      "FrequencyHz": XXXX
+    }
+  },
+  "RecordingType": "continuous",
+  "EMGChannelCount": 6,
+  "TriggerChannelCount": 1,
+  "Manufacturer": "Magstim",
+  "ManufacturerModelName": "Magstim 200 BiStim2",
+  "Instructions": "Remain relaxed."
+}

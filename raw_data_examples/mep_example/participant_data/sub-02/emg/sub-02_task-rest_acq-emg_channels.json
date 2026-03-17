@@ -1,0 +1,51 @@
+{
+  "name": {
+    "Description": "Label of channels used for online recording (e.g., trig, raw_fdi, raw_apb, mep_ampl_fdi, pre_rms_fdi, mep_ampl_apb, pre_rms_apb)"
+  },
+  "type": {
+    "Description": "Channel type",
+    "Levels": {
+      "TRIG": {
+        "Description": "Trigger channel marking stimulus onset or event codes",
+        "Units": "n/a"
+      },
+      "EMG": {
+        "Description": "Raw electromyography signal recorded from a muscle",
+        "Units": "mV"
+      },
+      "MEP": {
+        "Description": "Online motor evoked potential amplitude channel, storing peak-to-peak EMG amplitude following TMS pulses",
+        "Units": "mV"
+      },
+      "EMGRMS": {
+        "Description": "Online EMG root mean square channel, computed over the 100 ms window prior to each TMS pulse",
+        "Units": "mV"
+      }
+    }
+  },
+  "units": {
+    "Description": "Physical unit of the recorded signal"
+  },
+  "sampling_frequency": {
+    "Description": "Channel sampling rate",
+    "Units": "Hz"
+  },
+  "low_cutoff": {
+    "Description": "Low cutoff of filter",
+    "Units": "Hz"
+  },
+  "high_cutoff": {
+    "Description": "High cutoff of filter",
+    "Units": "Hz"
+  },
+  "notch": {
+    "Description": "Notch filter center frequency",
+    "Units": "Hz"
+  },
+  "status": {
+    "Description": "Data quality (good/bad/unknown)"
+  },
+  "status_description": {
+    "Description": "Reason for non-good status or notes (e.g., noisy channel, electrode detached)"
+  }
+}
